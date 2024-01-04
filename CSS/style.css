@@ -28,7 +28,6 @@ img {
 
 /* /Configuração global */
 
-
 /* Menu */
 .menu {
   padding: 24px 16px;
@@ -85,7 +84,6 @@ img {
 
 .registro-btn {
   color: #fff;
-  background: #000000;
   border: 2px solid #ffffff;
   padding: 10px 30px;
   border-radius: 10px;
@@ -93,9 +91,9 @@ img {
 }
 
 .registro-btn:hover {
-  color: #000;
-  border: 2px solid #eee5ff;
-  background: #fff;
+  background: #ffffff;
+  color: #000000;
+  border: 2px solid #ffffff;
 }
 
 #mobile-menu {
@@ -114,7 +112,6 @@ img {
   );
 }
 /* /Menu */
-
 
 /* Hero */
 .hero {
@@ -170,7 +167,6 @@ img {
 
 /* /Hero */
 
-
 .section-time {
   max-width: 1280px;
   gap: 32px;
@@ -195,6 +191,10 @@ img {
   font-weight: 300;
   font-family: "inter";
 }
+.time-button {
+  display: flex;
+  padding-top: 32px;
+}
 
 .devs {
   margin: 0 16px;
@@ -205,18 +205,13 @@ img {
   padding: 20px 40px 20px 40px;
   border-radius: 10px;
   display: flex;
-  background: linear-gradient(90deg, #91282F 0.44%, #330002 98.92%);
+  background: linear-gradient(90deg, #91282f 0.44%, #330002 98.92%);
   align-items: center;
   margin: 0 auto;
 }
 
 .devs-content {
   margin: 0 auto;
-}
-
-.time-button {
-  display: flex;
-  padding-top: 32px;
 }
 
 .devs-h2 {
@@ -237,6 +232,10 @@ img {
 .devs-img {
   display: flex;
   justify-content: flex-end;
+}
+.devs-btn {
+  display: flex;
+  gap: 20px;
 }
 
 /* Footer */
@@ -317,7 +316,7 @@ img {
     height: 20px;
   }
 
-  #menu{
+  #menu {
     display: block;
     position: absolute;
     width: 100%;
@@ -327,11 +326,11 @@ img {
     visibility: hidden;
     overflow-y: hidden;
   }
-  #nav.active #menu{
+  #nav.active #menu {
     height: 100vh;
     visibility: visible;
   }
-  #menu li{
+  #menu li {
     padding: 1rem;
     margin: 0 1rem;
   }
